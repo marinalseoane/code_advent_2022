@@ -21,3 +21,6 @@ with open('input.txt', 'r') as input:
             elves.append(0)
 
 print("max", max(elves))
+
+elves.sort(reverse=True)
+print(elves[0] + elves[1] + elves[2])
